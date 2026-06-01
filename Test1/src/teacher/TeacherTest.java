@@ -9,6 +9,7 @@ class TeacherTest {
 
     Teacher teacher;
 
+    // 각 테스트마다 기본 선생님 객체 준비
     @BeforeEach
     void setUp() {
         teacher = new Teacher("김선생");
